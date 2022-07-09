@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+
+    
+}
+.meanu-container{
+
+    display: flex;
+    background-color: black;
+}
+.company-logo{
+    margin-left: 120px;
+    color: aliceblue;
+}
+.menu-items
+{display: flex;
+
+width:400px;
+height: 50px;
+margin-top: 24px;
+margin-left:550px ;}
+
+.menu-items li{
+    list-style: none;
+    padding-left: 20px;
+    font-size: 20px;
+    margin-left: 20px;
+    color: aliceblue;
+    
+
+}
+.banner-contain{
+    display: flex;
+    padding-top: 60px;
+    background-color: black;
+    color: aliceblue;
+    
+
+
+}
+.banner-contain .banner-halfwidth{padding-left: 120px;
+
+    width: 50%;
+    
+}
+.blog-contain h1{
+    font-size:70px;
+    
+
+}
+.banner-contain .banner-halfwidth img{
+    width: 100%;
+}
+p{
+    font-size: 25px;
+}
+.orange{
+    color:orangered
+}
