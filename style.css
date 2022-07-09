@@ -60,7 +60,7 @@ p{
     color:orangered
 }
 
-button{
+.topbar-btn button{
     font-size: 20px;
     padding: 15px;
     border-radius: 5px;
@@ -68,7 +68,7 @@ button{
     color: wheat;
 }
 .card-blog{font-size: 16px;}
-.card-dixcirption img{
+.card-discirption img{
     width:60px;
     margin-top: 20px;
 }
@@ -114,6 +114,7 @@ a{
     color:orangered;
      text-align:center;
      box-shadow: 8px 8px 16px gray;
+     transition:0.8ms;
 }
 .card2:hover{
     border:1px solid red;
@@ -121,7 +122,6 @@ a{
     transition:0.8ms;
 }
 .card3{
-  
    
     margin-left: 85px;
      height: 280px;
@@ -131,6 +131,7 @@ a{
      color:orangered;
      text-align:center;
      box-shadow: 8px 8px 16px gray;
+     transition:0.8ms;
 }
 .card3:hover{
     border:1px solid red;
@@ -140,8 +141,68 @@ a{
 .section-blog {
     margin-bottom: 100px;
 }
-h1 {color: orangered;
+.section-blog h1{color: black;
 text-align: center;
 padding-bottom: 20px;
 font-size: 50px;
+}
+
+
+.workout-blog{
+    text-align: center;
+ color: white;
+}
+.blog-1 {
+    display: flex;
+    margin-left: 20px;
+  
+}
+.left-side img{
+    height: 550px;
+transform: skewY(20deg)
+}
+.workout{
+    background-color: black;
+    margin-bottom: 100px;
+}
+.blog-discription{
+    font-size: 40px;
+    color: white;
+}
+ul{
+    color:aliceblue;
+    font-size: 20px;
+}
+.right-side{
+    margin-left: 100px;
+}
+.workout-information {
+    display: flex;
+}
+.workout-information {
+   margin-left: 500px;
+    width: 500px;
+    height: 140px;
+    background-image: url(Group_33094_1.png);
+   background-position: center;
+   background-repeat: no-repeat;
+   border-radius: 10px;
+   margin-bottom: 100px;
+}
+.workout-infblog{
+    font-size: 27px;
+    color: white;
+   
+}
+.cheat-btn{
+    padding:10px ;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 50px;
+    
+}
+.workout-box{
+  
+    display: flex;
+    padding: 35px 40px;
 }
