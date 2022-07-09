@@ -40,7 +40,8 @@ margin-left:550px ;}
 
 
 }
-.banner-contain .banner-halfwidth{padding-left: 120px;
+.banner-contain .banner-halfwidth
+{padding-left: 120px;
 
     width: 50%;
     
@@ -80,7 +81,7 @@ p{
 
      width: 330px;
      border-radius:5px ;
-     color:orangered;
+     color:black;
      text-align:center;
      box-shadow: 8px 8px 16px gray;
      transition: 0.10ms;
@@ -111,8 +112,8 @@ a{
 
      width: 330px;
      border-radius:5px ;
-    color:orangered;
-     text-align:center;
+color: black;  
+   text-align:center;
      box-shadow: 8px 8px 16px gray;
      transition:0.8ms;
 }
@@ -128,7 +129,7 @@ a{
 
      width: 330px;
      border-radius:5px ;
-     color:orangered;
+     color:black;;
      text-align:center;
      box-shadow: 8px 8px 16px gray;
      transition:0.8ms;
@@ -180,9 +181,9 @@ ul{
     display: flex;
 }
 .workout-information {
-   margin-left: 500px;
-    width: 500px;
-    height: 140px;
+   margin-left: 400px;
+    width: 600px;
+    height:200px;
     background-image: url(Group_33094_1.png);
    background-position: center;
    background-repeat: no-repeat;
@@ -197,12 +198,12 @@ ul{
 .cheat-btn{
     padding:10px ;
     height: 40px;
-    margin-top: 10px;
+    margin-top: 15px;
     margin-left: 50px;
     
 }
 .workout-box{
   
     display: flex;
-    padding: 35px 40px;
+    padding: 50px 65px;
 }
