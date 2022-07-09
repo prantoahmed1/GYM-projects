@@ -35,6 +35,7 @@ margin-left:550px ;}
     padding-top: 60px;
     background-color: black;
     color: aliceblue;
+    margin-bottom: 100px;
     
 
 
@@ -57,4 +58,90 @@ p{
 }
 .orange{
     color:orangered
+}
+
+button{
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: orangered;
+    color: wheat;
+}
+.card-blog{font-size: 16px;}
+.card-dixcirption img{
+    width:60px;
+    margin-top: 20px;
+}
+.card1{
+   
+   
+    margin-left: 30px;
+     height: 280px;
+
+     width: 330px;
+     border-radius:5px ;
+     color:orangered;
+     text-align:center;
+     box-shadow: 8px 8px 16px gray;
+     transition: 0.10ms;
+}
+.card1:hover{
+    border:1px solid red;
+    margin-top: -28px;
+    transition:0.8ms;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+
+}
+.section-2{
+    display: flex;
+    margin-left: 60px;
+    display: flex;
+  margin-top: 100px;
+}
+.card2{
+   
+   
+    margin-left: 85px;
+     
+     height: 280px;
+
+     width: 330px;
+     border-radius:5px ;
+    color:orangered;
+     text-align:center;
+     box-shadow: 8px 8px 16px gray;
+}
+.card2:hover{
+    border:1px solid red;
+    margin-top: -28px;
+    transition:0.8ms;
+}
+.card3{
+  
+   
+    margin-left: 85px;
+     height: 280px;
+
+     width: 330px;
+     border-radius:5px ;
+     color:orangered;
+     text-align:center;
+     box-shadow: 8px 8px 16px gray;
+}
+.card3:hover{
+    border:1px solid red;
+    margin-top: -28px;
+    transition:0.8ms;
+}
+.section-blog {
+    margin-bottom: 100px;
+}
+h1 {color: orangered;
+text-align: center;
+padding-bottom: 20px;
+font-size: 50px;
 }
